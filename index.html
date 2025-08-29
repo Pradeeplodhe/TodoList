@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO App</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="body">
+    <h1 class="title">TODO App</h1>
+    <a href="./fav.html" class="fav-link">Favourite Page</a>
+    <div class="container">
+      <form class="form">
+        <label for="task" class="label">Task Name</label><br />
+        <input id="task" type="text" placeholder="Enter Task Name" class="input"/><br />
+        <label for="priority" class="label">Priority </label><br />
+        <select id="priority" class="select">
+          <option value="">Select Priority</option>
+          <option value="High">High</option>
+          <option value="Low">Low</option>
+        </select><br />
+        <input type="submit" class="submit" />
+      </form>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Task</th>
+            <th>Priority</th>
+            <th>Favourite</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Data will come dynamically -->
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
+<script src="index.js"></script>
